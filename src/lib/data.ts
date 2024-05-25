@@ -27,6 +27,7 @@ import {
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
+import { link } from "fs";
 
 export const links = [
   {
@@ -101,11 +102,11 @@ export const projectsData = [
       "Next.js",
       "Tailwind",
       "Nest.js",
-      ,
       "SQL",
       "TypeORM",
     ],
     imageUrl: sistemaCondominio,
+    link: "https://github.com/AllysonAlves1/sistema-condominio",
   },
   {
     title: "Deafy",
@@ -122,6 +123,7 @@ export const projectsData = [
       "Azure",
     ],
     imageUrl: deafy,
+    link: "https://github.com/AllysonAlves1/deafy-front",
   },
   {
     title: "Restaurant Food",
@@ -129,6 +131,7 @@ export const projectsData = [
       "Restaurant food is an application aimed at local businesses, with a good UX/UI, with the aim of increasing sales of the store's products.",
     tags: ["React", "Next.js", , "Tailwind", "Spring", "MongoDB"],
     imageUrl: wordanalyticsImg,
+    link: "",
   },
 ] as const;
 
